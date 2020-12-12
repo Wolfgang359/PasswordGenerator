@@ -4,11 +4,16 @@ var generateBtn = document.querySelector("#generate");
 var caseForm = document.createElement("form");
 document.body.appendChild(caseForm);
 
-var upperCase = 
 
 
+var x = "abcdefghijklmnopqrstuvwxyz" .split(" ");
+var y = "0123456789" .split(" "); 
+var x1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" .split(" ");
+var z = ["\`", "~", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "=", "+", "[", "{", "]", "}", "\\", "|", ";", ":", "\’", "\”", ",", "<", ".", ">", "/", "?"]
 
 
+console.log(z)
+console.log(y)
 
 
 

@@ -116,7 +116,7 @@ function generatePassword() {
       passText = realGeneration();
 
       function realGeneration() {
-        var x = Math.floor(Math.random() * 3) + 1;
+        var x = Math.floor(Math.random() * 2) + 1;
         var y = Math.floor(Math.random() * 32);
         var newText = (YNN[x][y]);
 
